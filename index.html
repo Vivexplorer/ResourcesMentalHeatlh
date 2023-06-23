@@ -23,27 +23,52 @@
       padding: 0;
     }
     li {
-      margin-bottom: 20px;
+      margin-bottom: 40px;
+      display: flex;
+      align-items: center;
     }
     a {
       color: #0070c9;
       text-decoration: none;
       font-weight: bold;
       transition: color 0.3s ease;
+      margin-right: 10px;
     }
     a:hover {
       color: #0055a5;
+    }
+    .link-image {
+      width: 80px;
+      height: 80px;
+      border-radius: 50%;
+      background-color: #e9e9e9;
+      margin-right: 20px;
     }
   </style>
 </head>
 <body>
   <h1>Mental Health Resources</h1>
   <ul>
-    <li><a href="https://www.nimh.nih.gov" target="_blank" rel="noopener">National Institute of Mental Health</a></li>
-    <li><a href="https://www.mentalhealth.gov" target="_blank" rel="noopener">MentalHealth.gov</a></li>
-    <li><a href="https://www.samhsa.gov" target="_blank" rel="noopener">Substance Abuse and Mental Health Services Administration</a></li>
-    <li><a href="https://www.psychiatry.org" target="_blank" rel="noopener">American Psychiatric Association</a></li>
-    <li><a href="https://www.nami.org" target="_blank" rel="noopener">National Alliance on Mental Illness</a></li>
+    <li>
+      <div class="link-image"></div>
+      <a href="https://www.nimh.nih.gov" target="_blank" rel="noopener">National Institute of Mental Health</a>
+    </li>
+    <li>
+      <div class="link-image"></div>
+      <a href="https://www.mentalhealth.gov" target="_blank" rel="noopener">MentalHealth.gov</a>
+    </li>
+    <li>
+      <div class="link-image"></div>
+      <a href="https://www.samhsa.gov" target="_blank" rel="noopener">Substance Abuse and Mental Health Services Administration</a>
+    </li>
+    <li>
+      <div class="link-image"></div>
+      <a href="https://www.psychiatry.org" target="_blank" rel="noopener">American Psychiatric Association</a>
+    </li>
+    <li>
+      <div class="link-image"></div>
+      <a href="https://www.nami.org" target="_blank" rel="noopener">National Alliance on Mental Illness</a>
+    </li>
   </ul>
 </body>
 </html>
